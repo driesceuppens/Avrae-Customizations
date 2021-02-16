@@ -1,6 +1,6 @@
 embed
 <drac2>
-testVersion = False
+testVersion = True
 argList = &ARGS&
 otherArgs = []
 
@@ -90,6 +90,7 @@ if c:
 </drac2>
 
 <drac2>
+# map attach info
 if c:
  # If we found a `map` attack with information, parse it now
  if mapinfo:
@@ -126,6 +127,7 @@ if c:
 </drac2>
 
 <drac2>
+# reading the notes
 if c:
  # Read each combatants notes for their information
  for target in com:
